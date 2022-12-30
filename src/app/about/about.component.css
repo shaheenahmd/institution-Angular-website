@@ -1,0 +1,17 @@
+.hero{
+    width: 100%;
+}
+.hero h1{
+    padding-top: 100px;
+    text-align: center;
+}
+.hero h1::before{
+    position: absolute;
+    content: '';
+    width: 4px;
+    height: 32px;
+    background-color:#4361ee;
+    margin-left: -13px;
+    margin-top: 8px;
+}
+

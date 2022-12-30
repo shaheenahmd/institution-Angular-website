@@ -1,0 +1,22 @@
+.join h1{
+    padding: 100px 50px 50px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.join h1::before{
+    position: absolute;
+    content: '';
+    width: 4px;
+    height: 32px;
+    background-color:#4361ee;
+    margin-left: -13px;
+    margin-top: 8px;
+}
+@media screen and (max-width:600px) {
+    .join h1{
+        font-size: 30px;
+
+    }  
+    
+}
