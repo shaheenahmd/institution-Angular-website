@@ -1,5 +1,5 @@
 .hero{
-    background: url(../../assets/b1.jpg);
+    background: url(../../assets/bg1.jpg);
     background-size: cover;
     background-position: top;
     height: 120vh;
@@ -8,7 +8,7 @@
 }
 .hero-text{
     position: absolute;
-    top: 300px;
+    top: 350px;
     
 }
 .hero-text h1{
